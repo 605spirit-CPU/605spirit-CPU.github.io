@@ -1,11 +1,11 @@
-// A simple function to be executed when the DOM is ready
+// A simple function
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Select the button element by its ID
+    //get the button's element ID
     const button = document.getElementById('actionButton');
 
-    // Add an event listener for the 'click' event
+    // Add an event listener for clicking
     button.addEventListener('click', () => {
-        // Display an alert dialog
-        alert('Button was clicked!');
+        // Display an alert 
+        alert('Button clicked');
     });
 });
