@@ -29,14 +29,19 @@ button {
     margin-top: 1rem;
 }
 .pill-button {
-  background-color: white; 
-  border: 2px solid black; 
-  font-size: 18px;
-  text-decoration: none;
-  border-radius: 12px;
-  text-align: center;  
-  
+  background-color: #04AA6D; /* Green background */
+  border: none;              /* Remove default border */
+  color: white;              /* White text color */
+  padding: 15px 32px;        /* Some padding */
+  text-align: center;        /* Center the text */
+  text-decoration: none;     /* Remove underline for anchor tags */
+  display: inline-block;     /* Make it inline-block */
+  font-size: 16px;           /* Increase font size */
+  margin: 4px 2px;           /* Add some margin */
+  cursor: pointer;           /* Add a mouse pointer on hover */
+  border-radius: 12px;       /* Rounded corners (adjust the value for more roundness) */
 }
+
 
 /* Hover effect */
 .pill-button:hover {
