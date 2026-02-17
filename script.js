@@ -9,3 +9,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         alert('Button clicked');
     });
 });
+document.getElementById('logs').addEventListener('click', function() {
+    window.location.href = 'Logs.html'; // Redirects to Logs.html in the same directory
+  });
