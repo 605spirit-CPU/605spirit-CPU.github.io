@@ -11,3 +11,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 document.getElementById('logs').addEventListener('click', function() {
     window.location.href = 'Logs.html'; // Redirects to Logs.html 
   });
+document.getElementById('comments').addEventListener('click', function() {
+    window.location.href = 'Comments.html'; // Redirects to Logs.html 
+  });
