@@ -1,6 +1,5 @@
-// A simple function
 document.addEventListener('DOMContentLoaded', (event) => {
-    //get the button's element ID
+    //get the button's element ID from index.html
     const button = document.getElementById('actionButton');
 
     // Add an event listener for clicking
