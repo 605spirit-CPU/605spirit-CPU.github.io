@@ -7,16 +7,25 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body, html {
-            height: 100%;
-            margin: 0;
+            
             display: flex;
             justify-content: left; /* Centers horizontally */
             align-items: top;     /* Centers vertically */
             background-color: white; /* Sets background to white */
             font-family: Inter, sans-serif; /* Clean Font */
+            height: 100%;
+            margin: 0;
         }
         h1 {
             font-size: 1em; 
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: left; /* Centers to the left, horizontally, but this time without affecting the header. */
+            align-items: top;     /* Centers vertically (top) */
+            height: 100%;
+            padding: 20px;
         }
     </style>
 </head>
@@ -24,7 +33,9 @@
     <header>
         <h1>Logs.</h1>
     </header>
-    <h1>Day 1: Added logs page. I learned how to make buttons perform specific actions as well as how to format in HTML decently.</h1>
+    <div class="content-container">
+        <h1>Day 1: Added logs page. I learned how to make buttons perform specific actions as well as how to format in HTML decently.</h1>
+    </div>
 </body>
 </html>
 
