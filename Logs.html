@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logs</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body, html {
-            
-            display: flex;
-            justify-content: left; /* Centers horizontally to the left */
-            align-items: top;     /* Centers vertically to the top */
-            background-color: white; /* Sets the background to white */
-            font-family: Inter, sans-serif; 
-            height: 100%;
-            margin: 0;
-        }
-        h1 {
-            font-size: 1em; 
-        }
-
-        .content-container {
-            display: flex;
-            justify-content: left; /* Centers to the left, horizontally, but this time without affecting the header. */
-            align-items: top;     /* Centers vertically (top) */
-            height: 100%;
-            padding: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logs</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: white;
+        font-family: Inter, sans-serif;
+    }
+    header {
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        /* Centering with flexbox */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header h1 {
+        font-size: 1em;
+        margin: 0;
+    }
+    .content-container {
+        padding: 20px;
+    }
+    .content-container h1 {
+        font-size: 1em;
+        margin-top: 0;
+    }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Logs.</h1>
-    </header>
-    <div class="content-container">
-        <h1>Day 1: Added logs page. I learned how to make buttons perform specific actions as well as how to format in HTML decently.</h1>
-    </div>
+<header>
+    <h1>Logs.</h1>
+</header>
+<div class="content-container">
+    <h1>Day 1: Added logs page. I learned how to make buttons perform specific actions as well as how to format in HTML decently.</h1>
+</div>
 </body>
 </html>
+
+
 
